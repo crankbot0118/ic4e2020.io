@@ -491,29 +491,4 @@ img {
 	50% { opacity: .1; } 
 	100% { opacity: 1; }
 }
-.container {
-  width: 75%;
-  margin: 0 auto;
-  font-family: sans-serif;
-}
-h1 {
-  float:left;
-  width: 50%;
-  text-align: center;
-  margin-top: 3rem;
-}
-.text-red {
-  color: red;
-}
-.blink-hard {
-  animation: blinker 1s step-end infinite;
-}
-.blink-soft {
-  animation: blinker 1.5s linear infinite;
-}
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
 
